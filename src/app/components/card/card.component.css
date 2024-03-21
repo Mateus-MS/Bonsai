@@ -12,9 +12,9 @@
 
     width: 18dvw;
     height: 115dvh;
-    border: 1px solid rgb(157, 157, 157);
-    border-radius: 3px;
-    padding: 2.5dvw 2.5dvw;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    padding: 2.5dvw 2dvw;
     display: flex;
     flex-direction: column;
     color: var(--gray);

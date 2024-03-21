@@ -1,9 +1,25 @@
 .card_holder{
 
-    width: 80dvw;
+    width: 70dvw;
     height: fit-content;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+
+}
+
+.addons_break{
+
+    margin: 10dvh auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.addons_break span{
+
+    font-size: 2em;
+    font-family: Georgia;
+    color: var(--gray);
 
 }
