@@ -1,0 +1,27 @@
+<div class="container">
+
+    <h1 class="title">{{title}}</h1>
+    <p class="description">{{description}}</p>
+
+    <div class="holder">
+
+        <span class="cifrao">$</span>
+        <span class="number_months">{{price}}</span>
+        <span class="word_month">/MONTH</span>
+
+    </div>
+
+    <ul class="benefits">
+        @for (benefit of benefits; track $index) {
+            <li class="benefit">
+                <img src="./assets/icon/check.svg">
+                <span>{{benefit}}</span>
+            </li>
+        }
+    </ul>
+
+    <div id="button_shape">
+        <app-buttom [isActive]=true text="START FREE"></app-buttom>
+    </div>
+
+</div>

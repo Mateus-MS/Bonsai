@@ -1,0 +1,9 @@
+.card_holder{
+
+    width: 80dvw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}

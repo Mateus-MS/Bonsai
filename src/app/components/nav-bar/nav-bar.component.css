@@ -14,31 +14,27 @@
     height: 90%;
 }
 
-.container button{
-
-    padding: 10px 25px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    background-color: unset;
-    border: 1px solid var(--green);
-    color: var(--green);
-    border-radius: 7px;
-    margin: 0 10px;
-
-}
-
-.container button:hover{
-
-    background-color: var(--green);
-    color: white;
-
-}
-
 .menus span{
 
     margin: 0 20px;
     cursor: pointer;
     color: var(--gray);
+
+}
+
+.holder{
+    display: flex;
+}
+
+#start{
+    width: 140px;
+    height: 40px;
+}
+
+#login{
+
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
 
 }
