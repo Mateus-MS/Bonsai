@@ -40,5 +40,35 @@
     <span>Super charge your work with add-ons</span>
   </div>
 
+  <app-addon [link]=false [price]=null title="Collaborators" description="Invite other users to specific projects for limited access and functionality."></app-addon>
+  <app-addon [link]=false [price]=9 title="Partners" description="Invite other users for full account access and company management."></app-addon>
+  <app-addon [link]=true [price]=10 title="Bonsai Tax" description="Track expenses, identify write-offs, and estimate quarterly taxes easily."></app-addon>
+
+  <div class="start">
+    <div>
+      <div class="start_holder">
+        <p>It’s</p>
+        <p class="green">your</p>
+        <p>business.</p></div>
+      <p>We’re here to help it grow.</p>
+    </div>
+    <div class="button_shape">
+      <app-buttom [isActive]=true text="START FREE"></app-buttom>
+    </div>
+  </div>
+
+  <div class="faq">
+
+    <h1>Frequently Asked Questions</h1>
+
+    <a>How does the free trial work?</a>
+    <a>Can i change plans anytime?</a>
+    <a>How do i pause my Bonsai subscription?</a>
+    <a>What is your refund policy?</a>
+
+  </div>
+
+  <app-footer></app-footer>
+
 </body>
 </html>

@@ -1,0 +1,25 @@
+<span>{{name}}</span>
+
+<ul>
+
+    @for (element of elements; track $index) {
+        @switch (checkType(element)) {
+            @case ("string") {
+                @if (isGreen(element)) {
+                    <li class="green">{{removeFirstCharacter(element)}}</li>
+                } @else {
+                    <li>{{element}}</li>
+                }
+            }
+            @case ("array") {
+                @for (item of element; track $index) {
+                    <li class="ident">{{item}}</li>
+                }
+            }
+            @case ("null") {
+                <li class="invisible">NULL</li>
+            }
+        }
+    }
+
+</ul>

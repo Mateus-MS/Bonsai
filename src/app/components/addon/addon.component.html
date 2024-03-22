@@ -1,0 +1,15 @@
+<div>
+    <h1 class="title">{{title}}</h1>
+    <p class="description">{{description}}</p>
+    @if(link){
+        <div class="link">LEARN MORE</div>
+    }
+</div>
+@if(price){
+    <div class="holder">
+        <h1>${{price}}</h1>
+        <span>/MONTH</span>
+    </div>
+} @else {
+    <h1>Free</h1>
+}

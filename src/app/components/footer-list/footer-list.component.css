@@ -1,0 +1,62 @@
+:host{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul{
+
+    margin-bottom: 1.5em;
+    list-style: none;
+
+}
+
+span{
+
+    font-weight: 600;
+    color: var(--gray);
+    margin-bottom: 2em;
+
+}
+
+li{
+
+    color: rgb(174, 174, 174);
+    margin-bottom: 14px;
+    transition: color ease .2s;
+    cursor: pointer;
+
+}
+
+li:hover{
+
+    color: var(--gray);
+
+}
+
+.ident{
+
+    margin-left: 15px;
+
+}
+
+.invisible{
+
+    opacity: 0;
+    user-select: none;
+    cursor: auto;
+
+}
+
+.green{
+
+    color: var(--green);
+
+}
+
+.green:hover{
+
+    color: rgb(7, 130, 7);
+
+}

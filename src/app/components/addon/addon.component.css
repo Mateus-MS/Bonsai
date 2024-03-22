@@ -1,0 +1,53 @@
+:host{
+
+    width: 60%;
+    height: 10dvh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    box-shadow: 0 7px 15px rgba(209, 209, 209, 0.257);
+    padding: 3dvw 1.5dvw;
+
+    color: var(--gray);
+
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holder h1{
+    font-size: 2.7em;
+}
+
+.title{
+    
+    font-size: 1.5em;
+}
+
+.description{
+
+    margin: 6px 0 15px 0;
+
+}
+
+.link{
+
+    color: var(--green);
+    font-size: .8em;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: color ease .3s;
+
+}
+
+.link:hover{
+
+    color: rgb(7, 130, 7);
+
+}

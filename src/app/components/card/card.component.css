@@ -11,11 +11,12 @@
 .container{
 
     width: 18dvw;
-    height: 115dvh;
+    height: 100%;
     border: 1px solid rgb(198, 198, 198);
     border-radius: 5px;
     padding: 2.5dvw 2dvw;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     color: var(--gray);
 
@@ -64,7 +65,7 @@
 
 .benefits{
 
-    
+    margin-bottom: 3em;
 
 }
 
