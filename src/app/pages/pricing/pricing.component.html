@@ -1,0 +1,62 @@
+<app-nav-bar></app-nav-bar>
+
+  <app-plan-selector></app-plan-selector>
+
+  <div class="card_holder">
+
+    <app-card 
+      title="Starter"
+      description="Ideal for freelancers and contractors just starting out."
+      [price]=24
+      [benefits]="['All Templates', 'Unlimited Client & Projects', 'Invoicing & Payment', 'Proposal & Contracts', 'Task & Time Tracking', 'Client CRM', 'Expense Tracking', 'Up to 5 Project Collaborators']">
+    </app-card>
+
+    <app-card 
+      title="Professional"
+      description="Everything a growing independent business needs to thrive."
+      [price]=39 
+      [benefits]="['Everything in Start plus...', 'Custom Branding', 'Forms & Questionnaires', 'Client Portal', 'QuickBooks Integration', 'Calendly Integration', 'Zapier Integration', 'Up to 15 Project Collaborators']">
+    </app-card>
+
+    <app-card 
+      title="Business"
+      description="The perfect package for small businesses and agencies."
+      [price]=79 
+      [benefits]="['Everything in Professional plus...', 'Subcontractor Management', 'Hiring Agreement Templates (1099 contracts)', 'Subcontractor Onboarding', 'Talent Pool', '3 Team Seats (additional seats $9/month)', 'Accountant Access', 'Connect Multiple Bank Accounts', 'Unlimited Subcontractors', 'Unlimited Project Collaborators']">
+    </app-card>
+
+  </div>
+
+  <div class="addons_break">
+    <span>Super charge your work with add-ons</span>
+  </div>
+
+  <app-addon [link]=false [price]=null title="Collaborators" description="Invite other users to specific projects for limited access and functionality."></app-addon>
+  <app-addon [link]=false [price]=9 title="Partners" description="Invite other users for full account access and company management."></app-addon>
+  <app-addon [link]=true [price]=10 title="Bonsai Tax" description="Track expenses, identify write-offs, and estimate quarterly taxes easily."></app-addon>
+
+  <div class="start">
+    <div>
+      <div class="start_holder">
+        <p>It’s</p>
+        <p class="green">your</p>
+        <p>business.</p></div>
+      <p>We’re here to help it grow.</p>
+    </div>
+    <div class="button_shape">
+      <app-buttom [isActive]=true text="START FREE"></app-buttom>
+    </div>
+  </div>
+
+  <div class="faq">
+
+    <h1>Frequently Asked Questions</h1>
+
+    <a>How does the free trial work?</a>
+    <a>Can i change plans anytime?</a>
+    <a>How do i pause my Bonsai subscription?</a>
+    <a>What is your refund policy?</a>
+
+  </div>
+
+  <app-footer></app-footer>
