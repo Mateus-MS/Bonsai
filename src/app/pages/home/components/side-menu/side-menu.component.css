@@ -1,0 +1,68 @@
+:host{
+
+    display: flex;
+    width: 60dvw;
+    height: calc(100dvh - 3em);
+    margin: 10dvh auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul{
+
+    width: 20dvw;
+
+}
+
+ul .holder:last-child{
+    border-bottom: none;
+}
+
+.container{
+
+    width: 35dvw;
+    height: fit-content;
+
+}
+
+.holder{
+
+    width: 65%;
+
+}
+
+.holder h1{
+
+    font-family: Georgia;
+    font-weight: 500;
+    color: var(--gray);
+    font-size: 1.8em;
+
+}
+
+.holder p{
+
+    color: rgb(149, 149, 149);
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin: .3em 0 .9em 0;
+
+}
+
+.holder a{
+
+    color: var(--green);
+    font-size: .8em;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.container img{
+
+    width: 80%;
+    display: flex;
+    margin: 1em 0 0 auto;
+
+}

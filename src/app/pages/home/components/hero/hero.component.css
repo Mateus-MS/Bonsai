@@ -1,0 +1,40 @@
+:host{
+
+    display: flex;
+    align-items: center;
+    width: 65dvw;
+    height: calc(100dvh - 3em);
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.holder{
+
+    width: 25dvw;
+    height: fit-content;
+
+}
+
+.holder h1{
+
+    font-family: Georgia;
+    color: var(--gray);
+    font-weight: 500;
+
+}
+
+.holder p{
+
+    margin: 2em 0;
+    font-weight: 500;
+    color: var(--gray);
+
+}
+
+.hero_image{
+
+    width: 35dvw;
+    margin-top: -3.5em;
+
+}

@@ -1,0 +1,60 @@
+:host{
+
+    width: 55dvw;
+    height: calc(100dvh - 3em);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+h1{
+
+    font-family: Georgia;
+    color: var(--gray);
+    font-weight: 500;
+
+}
+
+p{
+
+    margin-top: 1em;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    color: rgb(156, 156, 156);
+
+}
+
+.holder{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.benefit{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.benefit img{
+
+    width: 80%;
+
+}
+
+.benefit h2{
+
+    margin: 2.3em 0;
+    color: var(--gray);
+    font-size: 1.2em;
+
+}

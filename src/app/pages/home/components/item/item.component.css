@@ -1,0 +1,39 @@
+div{
+
+    display: flex;
+    align-items: center;
+
+    height: 25px;
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.674);
+
+    cursor: pointer;
+
+}
+
+img{
+
+    height: 90%;
+    aspect-ratio: 1/1;
+
+}
+
+p{
+
+    font-size: 1.2em;
+    color: var(--gray);
+    margin-left: 1em;
+
+}
+
+.green{
+
+    filter: invert(47%) sepia(49%) saturate(4844%) hue-rotate(140deg) brightness(101%) contrast(101%);
+
+}
+
+.selected{
+
+    background-color: rgb(244, 244, 244);
+
+}
