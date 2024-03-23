@@ -11,14 +11,112 @@
 
 </ul>
 
-<div class="container">
+<!--NOT SURE IF IS A GOOD WAY TO IMPLEMENT THIS-->
+@switch (activeChild) {
 
-    <div class="holder">
-        <h1>Win More Work</h1>
-        <p>With just a few clicks, you can craft structured proposals with clear estimates to close your deals faster.</p>
-        <a>EXPLORE PROPOSALS</a>
-    </div>
+    @case (0) {
+        <div class="container">
 
-    <img src="./assets/imgs/proposals.png">
+            <div class="holder">
+                <h1>Win More Work</h1>
+                <p>With just a few clicks, you can craft structured proposals with clear estimates to close your deals faster.</p>
+                <a>EXPLORE PROPOSALS</a>
+            </div>
+        
+            <img src="./assets/imgs/proposals.png">
+        
+        </div>
+    }
+    @case (1) {
+        <div class="container">
 
-</div>
+            <div class="holder">
+                <h1>Protect Your Business</h1>
+                <p>Simply answer a few questions to generate an already vetted contract template. Once you hit send, the contract can be e-signed in minutes.</p>
+                <a>EXPLORE CONTRACTS</a>
+            </div>
+        
+            <img src="./assets/imgs/contracts.png">
+        
+        </div>
+    }
+    @case (2) {
+        <div class="container">
+
+            <div class="holder">
+                <h1>Stay Organized</h1>
+                <p>Manage your clients and ongoing projects all in one place. Organize all the documents, files and payments together for you and your client.</p>
+                <a>EXPLORE PROJECTS</a>
+            </div>
+        
+            <img src="./assets/imgs/clientCRM.png">
+        
+        </div>
+    }
+    @case (3) {
+        <div class="container">
+
+            <div class="holder">
+                <h1>Keep It Simple</h1>
+                <p>Easily track the time you're working, automatically populate timesheets and seamlessly switch between your projects for the day.</p>
+                <a>EXPLORE TIME TRACKING</a>
+            </div>
+        
+            <img src="./assets/imgs/timeTracking.png">
+        
+        </div>
+    }
+    @case (4) {
+        <div class="container">
+
+            <div class="holder">
+                <h1>Get Paid Faster</h1>
+                <p>Create and customize invoices, receive updates about payment timelines, and have automatic payment reminders sent on your behalf.</p>
+                <a>EXPLORE INVOICES</a>
+            </div>
+        
+            <img src="./assets/imgs/invoices.png">
+        
+        </div>
+    }
+    @case (5) {
+        <div class="container">
+
+            <div class="holder">
+                <h1>Be More Effective</h1>
+                <p>Give your day more structure with simple task management on your projects. Track time for each task and stay up-to-date.</p>
+                <a>EXPLORE TASKS</a>
+            </div>
+        
+            <img src="./assets/imgs/tasks.png">
+        
+        </div>
+    }
+    @case (6) {
+        <div class="container">
+
+            <div class="holder">
+                <h1>Automate Your Finances</h1>
+                <p>Don't worry about freelance finances when you have automatic expense tracking, income reporting and estimated tax planning.</p>
+                <a>EXPLORE ACCOUNTING & TAXES</a>
+            </div>
+        
+            <img src="./assets/imgs/accounting.png">
+        
+        </div>
+    }
+    @case (7) {
+        <div class="container">
+
+            <div class="holder">
+                <h1>Ask Your Clients</h1>
+                <p>Create your own customized forms and questionnaires for clients and kicking off new projects</p>
+                <a>EXPLORE FORMS</a>
+            </div>
+        
+            <img src="./assets/imgs/forms.png">
+        
+        </div>
+    }
+
+}
