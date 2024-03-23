@@ -1,4 +1,6 @@
-<img class="logo" src="http://web.archive.org/web/20221117021711im_/https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg">
+<img class="logo" logo src="http://web.archive.org/web/20221117021711im_/https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg">
+
+@if (breakPoint) {
 
     <div class="menus">
 
@@ -6,9 +8,9 @@
         <span>Templates</span>
         <span>Pricing</span>
         <span>Reviews</span>
-
+    
     </div>
-
+    
     <div class="holder">
         <div id="login">
             <app-buttom text="LOG IN"></app-buttom>
@@ -17,3 +19,13 @@
             <app-buttom [isActive]=true text="START FREE"></app-buttom>
         </div>
     </div>
+
+} @else {
+
+    <div class="menu_toogler">
+
+        <img src="/assets/icon/menu.svg">
+
+    </div>
+
+}

@@ -1,6 +1,7 @@
 .container{
 
     width: 45%;
+    min-width: 600px;
     height: 20dvh;
     margin: 15dvh auto 4dvh auto;
 

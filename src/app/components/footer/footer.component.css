@@ -1,8 +1,22 @@
-:host{
+@media only screen and (min-width: 1200px) {
+    :host{
 
-    display: flex;
-    width: 70dvw;
-    justify-content: space-between;
-    margin: 0 auto 10dvh auto;
+        display: flex;
+        width: 70dvw;
+        justify-content: space-between;
+        margin: 0 auto 10dvh auto;
+    
+    }
+}
 
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+    :host{
+
+        display: flex;
+        width: 70dvw;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 0 auto 10dvh auto;
+    
+    }
 }

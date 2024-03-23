@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { ButtomComponent } from '../buttom/buttom.component';
 
 @Component({
@@ -8,6 +8,18 @@ import { ButtomComponent } from '../buttom/buttom.component';
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css'
 })
-export class NavBarComponent {
+
+export class NavBarComponent{
+
+  breakPoint !: boolean;
+
+  constructor(){
+    this.onResize();
+  }
+
+  @HostListener("window:resize", [])
+  onResize(){
+    this.breakPoint = window.innerWidth > 1200;
+  }
 
 }
