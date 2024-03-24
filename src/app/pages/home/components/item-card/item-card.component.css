@@ -1,0 +1,86 @@
+:host{
+
+    width: 35dvw;
+    height: fit-content;
+
+}
+
+.container{
+
+    width: 65%;
+
+}
+
+.container h1{
+
+    font-family: Georgia;
+    font-weight: 500;
+    color: var(--gray);
+    font-size: 1.8em;
+
+}
+
+.container p{
+
+    color: rgb(149, 149, 149);
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin: .3em 0 .9em 0;
+
+}
+
+.container a{
+
+    color: var(--green);
+    font-size: .8em;
+    font-weight: 600;
+    
+}
+
+.holder{
+    width: fit-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.holder > a{
+    transition: color ease .3s;
+}
+
+.holder:hover > a{
+
+    color: var(--d-green);
+
+}
+
+.holder:hover > svg{
+
+    animation: link_loop ease-in-out 1s infinite;
+    color: var(--d-green);
+
+}
+
+.holder > svg{
+
+    color: var(--green);
+    height: 1em;
+    aspect-ratio: 1 / 1;
+    margin-left: .5em;
+    transition: color ease .3s;
+
+}
+
+@keyframes link_loop {
+    0%{margin-left: .5em;}
+    50%{margin-left: 1em;}
+    100%{margin-left: .5em;}
+}
+
+:host > img{
+
+    width: 80%;
+    display: flex;
+    margin: 1em 0 0 auto;
+
+}

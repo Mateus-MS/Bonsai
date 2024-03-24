@@ -1,10 +1,11 @@
 import { Component, QueryList, ViewChildren, ElementRef, AfterViewInit } from '@angular/core';
 import { ItemComponent } from '../item/item.component';
+import { ItemCardComponent } from '../item-card/item-card.component';
 
 @Component({
   selector: 'app-side-menu',
   standalone: true,
-  imports: [ItemComponent],
+  imports: [ItemComponent, ItemCardComponent],
   templateUrl: './side-menu.component.html',
   styleUrl: './side-menu.component.css'
 })

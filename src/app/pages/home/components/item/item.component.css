@@ -4,10 +4,19 @@ div{
     align-items: center;
 
     height: 25px;
-    padding: 1em 0;
+    padding: 1em;
     border-bottom: 1px solid rgba(230, 230, 230, 0.674);
+    color: var(--gray);
+
+    transition: all ease .3s;
 
     cursor: pointer;
+
+}
+
+div:hover{
+
+    background-color: rgb(244, 244, 244);
 
 }
 
@@ -21,7 +30,7 @@ img{
 p{
 
     font-size: 1.2em;
-    color: var(--gray);
+    color: inherit;
     margin-left: 1em;
 
 }
@@ -35,5 +44,6 @@ p{
 .selected{
 
     background-color: rgb(244, 244, 244);
+    color: var(--green);
 
 }
