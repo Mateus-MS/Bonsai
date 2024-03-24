@@ -1,0 +1,67 @@
+:host{
+
+    width: 50dvw;
+    height: calc(100dvh - 3em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    scroll-snap-align: start;
+
+}
+
+h1{
+
+    font-size: 1.5em;
+    font-family: Georgia;
+    font-weight: 500;
+    width: 55%;
+    text-align: center;
+    color: var(--gray);
+    line-height: 1.5em;
+    margin-bottom: .5em;
+
+}
+
+p{
+
+    font-size: 1.2em;
+    color: var(--l-gray);
+    width: 50%;
+    text-align: center;
+
+}
+
+.container{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3.5em;
+
+}
+
+.holder{
+
+    width: 40%;
+
+}
+
+.holder h2{
+
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: var(--gray);
+    margin: 1.5em 0 .7em 0;
+
+}
+
+.holder p{
+
+    width: 90%;
+    font-size: 1em;
+    text-align: left;
+    color: var(--l-gray);
+
+}

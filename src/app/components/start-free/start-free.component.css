@@ -1,0 +1,70 @@
+@media screen and (min-width: 400px) and (max-width: 1200px){
+    
+    :host{
+
+        width: 60dvw;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F2FAFF;
+        margin: 20dvh auto;
+        padding: 6dvh 4dvw;
+    
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+ 
+    :host{
+
+        width: 45dvw;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F2FAFF;
+        margin: 20dvh auto;
+        padding: 6dvh 4dvw;
+    
+    }
+
+}
+
+p{
+
+    font-size: 2.5em;
+    font-family: Georgia;
+    color: var(--gray);
+    margin-bottom: 15px;
+
+}
+
+.holder{
+
+    display: flex;
+
+}
+
+.holder p{
+
+    margin-right: 15px;
+
+}
+
+.holder .green{
+
+    color: var(--green);
+
+}
+
+.button_shape{
+
+    width: 20%;
+    max-width: 200px;
+    min-width: 150px;
+
+    height: 60px;
+
+}
